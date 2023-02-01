@@ -17,7 +17,7 @@ header {
   padding-top: 15px;
 }
 
-#conteudo {
+.conteudo {
   background: -webkit-linear-gradient(
     left top,
     rgba(199, 220, 16, 0.735) 0%,
@@ -29,7 +29,7 @@ header {
   padding: 3px;
 }
 
-#profile-box {
+.profile-box {
   background: url("../img/minha-foto.jpeg");
   background-size: cover;
   width: 150px;
@@ -42,29 +42,29 @@ section {
   flex-direction: column;
 }
 
-#content {
+.content {
   margin-top: 15px;
   background-color: #223434;
   position: relative;
 }
 
-#content-title {
+.content-title {
   color: whitesmoke;
   margin-left: 25px;
 }
 
-#content-title h1 {
+.content-title h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: large;
 }
 
-#content-title p {
+.content-title p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: medium;
 }
 
-#slide-container {
+.slide-container {
   margin: 1rem;
   margin: auto;
   gap: 10px;
@@ -74,14 +74,14 @@ section {
   width: 960px;
 }
 
-#box {
+.box {
   position: relative;
   width: 1000px;
   margin: auto;
 }
 
-#prev,
-#next {
+.prev,
+.next {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -98,11 +98,11 @@ section {
   transition: opacity 100ms;
 }
 
-#next {
+.next {
   right: 0;
 }
 
-#prev:hover,
-#next:hover {
+.prev:hover,
+.next:hover {
   opacity: 0.3;
 }
