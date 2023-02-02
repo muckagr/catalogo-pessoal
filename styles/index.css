@@ -46,6 +46,7 @@ section {
   margin-top: 15px;
   background-color: #223434;
   position: relative;
+  border-radius: 10px;
 }
 
 .content-title {
@@ -94,7 +95,7 @@ section {
   font-size: 2.5rem;
   padding: 0px;
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0;
   transition: opacity 100ms;
 }
 
@@ -104,5 +105,5 @@ section {
 
 .prev:hover,
 .next:hover {
-  opacity: 0.3;
+  opacity: 0.6;
 }
